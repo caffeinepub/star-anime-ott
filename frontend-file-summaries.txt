@@ -1,0 +1,6 @@
+{
+  "frontend/src/App.tsx": "Main application component featuring a complete anime-themed OTT streaming platform with header, hero section, featured shows, trending content, continue watching section, and footer with the blue star logo prominently displayed.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks, currently empty as no backend operations are required for this static showcase.",
+  "frontend/src/index.css": "Global styles implementing an anime-inspired blue color theme using OKLCH color system with vibrant electric blues, custom glow effects, and grid patterns for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with anime-themed blue color palette, custom shadows with glow effects, and typography settings to support the streaming platform aesthetic."
+}

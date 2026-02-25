@@ -1,0 +1,71 @@
+{
+  "kind": "build_request",
+  "title": "Create blue star anime themed OTT platform logo",
+  "projectName": "Star Anime OTT",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Generate a logo for an OTT (over-the-top) streaming platform featuring a star design with anime-style aesthetics in blue color scheme",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "star anime blue colour ott logon logo"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Logo features a prominent star element",
+        "Design incorporates anime-style visual characteristics",
+        "Color palette is primarily blue",
+        "Logo is suitable for an OTT/streaming platform brand",
+        "Image is generated and stored in frontend/public/assets/generated"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Display the generated OTT logo prominently in the application interface",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Logo is rendered as a static asset from frontend/public/assets/generated",
+        "Logo is visible and properly sized in the UI",
+        "Logo maintains quality and clarity at display size"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Implement a creative visual theme with cohesive colors, typography, and layout that complements the anime-style blue star logo aesthetic",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Visual design theme is consistent across all UI components",
+        "Color scheme harmonizes with the blue star logo",
+        "Typography choices support the anime/streaming platform aesthetic",
+        "Layout and interaction patterns feel cohesive with the overall design direction"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Building video streaming functionality",
+    "Implementing user authentication or subscriptions",
+    "Creating multiple logo variations or animated versions"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Blue star-shaped logo with anime aesthetic for OTT streaming platform, vibrant blue gradients, dynamic star design with sharp points, modern and eye-catching style suitable for digital branding (ott-logo.dim_512x512.png)"
+    ],
+    "edits": []
+  }
+}
